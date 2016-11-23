@@ -72,4 +72,8 @@ interface IPowerManager
 
     void setKeyboardLight(boolean on, int key);
 
+    // sets the delai after which to check the proximity to decide whether
+    // to wake the device
+    void wakeUpWithProximityCheck(long time, String reason, String opPackageName);
+
 }
