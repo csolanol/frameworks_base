@@ -67,4 +67,8 @@
     <string name="battery_style_circle">Circle</string>
     <string name="battery_style_droid">TeslaCoil</string>
 
+    <!-- kill app long press back -->
+    <string name="app_killed_message"><xliff:g id="string">%s</xliff:g> killed</string>
+    <string name="no_app_killed_message">Nothing to kill</string>
+
 </resources>
